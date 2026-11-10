@@ -1,0 +1,12 @@
+{
+  "name": "order-automation-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "마켓 주문 Excel → 물류사 발주서 → 송장 업로드 파일 자동화 데모 (정적 웹앱)",
+  "scripts": {
+    "test": "node --test tests/core.test.js",
+    "samples": "python scripts/make_samples.py node",
+    "start": "python -m http.server 8000"
+  },
+  "license": "MIT"
+}
